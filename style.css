@@ -1,0 +1,132 @@
+.rounded-circle{
+  box-shadow:10px 15px 15px rgb(91, 91, 92); 
+}
+.nav-item:hover{
+  background: rgb(81, 80, 80);
+  border-radius: 4px;
+}
+.gallery{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:20px;
+ gap: 2rem;
+}
+.space{
+  margin-left:2rem;
+}
+.outer-gallery .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.outer-gallery .box-container .box{
+  overflow: hidden;
+  box-shadow: 15px 10px 15px rgb(94, 94, 93);
+  border-radius: 2px;
+  transition: 1s ;
+  position: relative;
+}
+.box:hover{
+transform:scale(1.2);
+z-index: 2;
+}
+.services{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+}
+.service-box{
+  flex: 1 1 20rem;
+  width: 25%;
+  border-radius: 3rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: sans-serif;
+ 
+}
+.service-box i{
+  padding: 1rem;
+  font-size: 3rem;
+  color: rgb(253, 175, 32);
+}
+.service-box p{
+  font-size:1rem;
+  color: rgb(121, 120, 120);
+  padding: 0.8rem 0;
+}
+.service-box:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.heading-ser{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  gap: 1.6rem;
+}
+.stars i{
+  font-size:16px ;
+  color: orange;
+}
+.price{
+  font-size: 22px;
+  font-weight: 450;
+}
+.price span{
+  font-size: 18px;
+  text-align: center;
+  margin-left: 4px;
+  font-weight: 400;
+  color: rgb(52, 51, 51);
+  text-decoration:line-through;
+}
+.card-body h4 i{
+  color: orange;
+  margin-right: 6px;
+  font-size: 25px;
+}
+.col{
+  transition:1s ;
+
+}
+.col:hover{
+  transform: scale(1.02);
+  z-index: 2;
+}
+.show-more{
+  margin: 10px;
+}
+.footer-area{
+  display: flex;
+  justify-content: space-around;
+  flex: wrap;
+}
+.footer-right{
+  margin-top: 200px;
+}
+.tag{
+  font-size: 2.4rem;
+  color:orangered;
+}
+.tag-mem{
+  font-size: 2rem;
+  color: rgb(8, 152, 8);
+}
+.foot-para{
+  font-size: 1rem;
+}
+.foot-icon{
+  font-size:2rem ;
+
+  margin: 4px;
+
+}
+.designer{
+  font-size: 20px;
+  color: blueviolet;
+}
+.head{
+ margin-left: 40%;
+}
